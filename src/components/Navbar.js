@@ -19,11 +19,11 @@ function Navbar() {
       {/* ===== Top Black Bar ===== */}
       <div className="nav-top">
         <div className="nav-links-left">
-          <a href="#">About</a>
-          <a href="#">Alumni</a>
-          <a href="#">Student Area</a>
-          <a href="#">Notice & Event</a>
-          <a href="#">Gallery</a>
+          <a href="https://alumni.shivalikcollege.edu.in/page/About-Us.dz">About</a>
+          <a href="https://alumni.shivalikcollege.edu.in/?">Alumni</a>
+          <a href="https://shivalikcollege.edu.in/disabledfriendlycampus/">Student Area</a>
+          <a href="https://shivalikcollege.edu.in/category/newsevents/">Notice & Event</a>
+          <a href="https://shivalikcollege.edu.in/gallery/">Gallery</a>
         </div>
 
         <div className="social-icons">
@@ -34,11 +34,8 @@ function Navbar() {
           <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         </div>
       </div>
-
-      {/* ===== Main Navbar ===== */}
       <div className="nav-main">
 
-        {/* Logo Section */}
         <div className="logo-section">
           <img src={logo} alt="Shivalik College Logo" className="main-logo" />
           <img src={naac} alt="NAAC A+ Grade" className="naac-logo" />
@@ -47,11 +44,11 @@ function Navbar() {
         <nav className="menu">
 
           <div className="dropdown">
-            <a href="#">Academics</a>
+            <a href="https://shivalikcollege.edu.in/course/shivalik-college-of-engineering/">Academics</a>
             <div className="dropdown-content">
-              <a href="#">Departments</a>
-              <a href="#">Faculty</a>
-              <a href="#">Syllabus</a>
+              <a href="https://shivalikcollege.edu.in/course/shivalik-college-of-engineering/">Departments</a>
+              <a href="https://shivalikcollege.edu.in/course/shivalik-college-of-engineering/">Faculty</a>
+              <a href="https://shivalikcollege.edu.in/course/shivalik-college-of-engineering/">Syllabus</a>
             </div>
           </div>
 
@@ -59,20 +56,20 @@ function Navbar() {
             <a href="https://shivalikcollege.edu.in/apply-now/?">Admissions</a>
             <div className="dropdown-content">
               <a href="https://shivalikcollege.edu.in/apply-now/?">Apply Online</a>
-              <a href="#">Eligibility</a>
-              <a href="#">Fee Structure</a>
+              <a href="https://shivalikcollege.edu.in/prospectus/">Eligibility</a>
+              <a href="https://shivalikcollege.edu.in/fee-structure/">Fee Structure</a>
             </div>
           </div>
 
           <div className="dropdown">
-            <a href="#">Placements</a>
+            <a href="https://shivalikcollege.edu.in/placement-2/about-dotp-overview/">Placements</a>
             <div className="dropdown-content">
-              <a href="#">Welcome To Career Development Cell</a>
-              <a href="#">Placement</a>
-              <a href="#">Our Recruitment Partners</a>
-              <a href="#">Industry Tieups</a>
-              <a href="#">Trainings for Enhancing Employability</a>
-              <a href="#">Team Training & Placement</a>
+              <a href="https://shivalikcollege.edu.in/placement/">Welcome To Career Development Cell</a>
+              <a href="https://shivalikcollege.edu.in/placement/">Placement</a>
+              <a href="https://shivalikcollege.edu.in/placement/">Our Recruitment Partners</a>
+              <a href="https://shivalikcollege.edu.in/placement/industrytieups/">Industry Tieups</a>
+              <a href="https://shivalikcollege.edu.in/placement-2/placement-team/">Trainings for Enhancing Employability</a>
+              <a href="https://shivalikcollege.edu.in/placement-2/placement-team/">Team Training & Placement</a>
             </div>
           </div>
 
@@ -80,39 +77,39 @@ function Navbar() {
             <a href="https://shivalikcollege.edu.in/ihub-cbii/">CBII / iHub</a>
             <div className="dropdown-content">
               <a href="https://shivalikcollege.edu.in/ihub-cbii/">About CBII</a>
-              <a href="#">Innovation Hub</a>
-              <a href="#">Startup Support</a>
+              <a href="https://shivalikcollege.edu.in/startups/">Innovation Hub</a>
+              <a href="https://shivalikcollege.edu.in/startups/">Startup Support</a>
             </div>
           </div>
 
           <a href="https://erp.shivalikcollege.edu.in/?_gl=1*3je075*_gcl_au*MTA2NTgyMjcxOC4xNzcwNzQ2Mjc5*_ga*NzA1NzUzMDcxLjE3MzYwMDQ5NTI.*_ga_CF5QHF662G*czE3NzE0MzIyMzAkbzI1JGcxJHQxNzcxNDMzNDE0JGo2MCRsMCRoMA." className="https://erp.shivalikcollege.edu.in/?_gl=1*3je075*_gcl_au*MTA2NTgyMjcxOC4xNzcwNzQ2Mjc5*_ga*NzA1NzUzMDcxLjE3MzYwMDQ5NTI.*_ga_CF5QHF662G*czE3NzE0MzIyMzAkbzI1JGcxJHQxNzcxNDMzNDE0JGo2MCRsMCRoMA.">ERP Login</a>
 
           <div className="dropdown">
-            <a href="#">Courses</a>
+            <a href="https://shivalikcollege.edu.in/admissions/apply-online/">Courses</a>
             <div className="dropdown-content">
-              <a href="#">B.Tech</a>
-              <a href="#">BCA</a>
-              <a href="#">BBA</a>
-              <a href="#">MBA</a>
-              <a href="#">Pharmacy</a>
-              <a href="#">Diploma</a>
+              <a href="https://shivalikcollege.edu.in/admissions/apply-online/">B.Tech</a>
+              <a href="https://shivalikcollege.edu.in/admissions/apply-online/">BCA</a>
+              <a href="https://shivalikcollege.edu.in/admissions/apply-online/">BBA</a>
+              <a href="https://shivalikcollege.edu.in/admissions/apply-online/">MBA</a>
+              <a href="https://shivalikcollege.edu.in/admissions/apply-online/">Pharmacy</a>
+              <a href="https://shivalikcollege.edu.in/admissions/apply-online/">Diploma</a>
             </div>
           </div>
 
           <div className="dropdown">
-            <a href="#">Research</a>
+            <a href="https://shivalikcollege.edu.in/research/">Research</a>
             <div className="dropdown-content">
-              <a href="#">Projects</a>
-              <a href="#">Publications</a>
+              <a href="https://shivalikcollege.edu.in/research/">Projects</a>
+              <a href="https://shivalikcollege.edu.in/research/">Publications</a>
             </div>
           </div>
 
           <div className="dropdown">
-            <a href="#">Campus Life</a>
+            <a href="https://shivalikcollege.edu.in/student-resources/student-clubs/">Campus Life</a>
             <div className="dropdown-content">
-              <a href="#">Clubs</a>
-              <a href="#">Events</a>
-              <a href="#">Sports</a>
+              <a href="https://shivalikcollege.edu.in/student-resources/student-clubs/">Clubs</a>
+              <a href="https://shivalikcollege.edu.in/student-resources/student-clubs/">Events</a>
+              <a href="https://shivalikcollege.edu.in/student-resources/student-clubs/">Sports</a>
             </div>
           </div>
 
